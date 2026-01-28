@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Notedry;
+    src: url(Simple\ February.otf);
+
+}
+
+@font-face {
+  font-family: Notedry;
+  src: url(Simple\ February.otf)
+}
+
+
+
+body{background-image: url(simple-blank-traditional-artistic-mandala-plain-horizontal-background-with-subtle-colors-vector.jpg);
+    background-size: 1400px;
+    font-family: "Simple Games" ; font-style: unset; color: rgb(108, 66, 66);
+    src: url(Simple\ Games.ttf);
+    }
+
+.navbar{
+    background-color: rgb(124, 124, 96); padding-right: 15px; padding-left: 15px;
+ }
+.navdiv{
+    display: flex;align-items: center; justify-content: space-between;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+
+ }
+
+.Notedry{
+       font-family:"Notedry" ; font-style: normal; font-size: 22px;
+    src:url("SwirlyCanalope_PERSONAL_USE_ONLY.otf"); 
+	}
+
+.LauraRamic{
+        font-family: "LauraRamic";
+    src:url("LauraRamic.ttf"); 
+	}
+
+.container {
+      display: flex;
+      
+    }
+
+   
+    video {
+      max-width: 60%; 
+      margin-right: 20px; 
+    }
+
+   
+    .text {
+      font-size: 20px;
+      max-width: 30%; 
+      line-height: 1.5;
+    }
+
+.image-row {
+  display: flex;
+  flex-wrap: nowrap;  
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  text-align: center;
+  width: 350px;        
+  flex-shrink: 0;      /
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+}
